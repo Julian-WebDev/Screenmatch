@@ -5,8 +5,13 @@ public class model_movie {
     int duration;
     boolean available;
 
-    double rating;
-    int totalRatings;
+    //Access modifiers
+    private double rating; //Private makes the variable undetectable to the common user
+    private int totalRatings;
+
+    int getTotalRatings(){
+        return totalRatings;
+    }
 
     void showMovie(){
         System.out.println("The name of the movie is: " + name);
