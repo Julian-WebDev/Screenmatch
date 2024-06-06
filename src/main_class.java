@@ -1,12 +1,14 @@
+import com.aluracursos.screenmatch.models.model_movie;
+
 public class main_class {
     // Main method
     public static void main(String [] args){
         // Class instance
         model_movie movie = new model_movie();
 
-        movie.name = "The Lord of the Rings";
-        movie.releaseDate = 2001;
-        movie.duration = 178;
+        movie.setName("The Lord of the Rings");
+        movie.setReleaseDate(2001);
+        movie.setDuration(178);
 
         movie.showMovie();
         movie.rating(8);
@@ -16,6 +18,7 @@ public class main_class {
         System.out.println("Average: " + movie.average());
 
         System.out.println("************************");
+
         // Create another movie
         model_movie second_movie = new model_movie();
 
