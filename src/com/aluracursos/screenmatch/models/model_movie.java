@@ -29,6 +29,26 @@ public class model_movie {
         this.totalRatings = totalRatings;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getReleaseDate() {
+        return releaseDate;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
     //Access modifiers
     public double rating; //Private makes the variable undetectable to the common user
     private int totalRatings;

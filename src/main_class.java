@@ -19,19 +19,19 @@ public class main_class {
 
         System.out.println("************************");
 
-        // Create another movie
-        model_movie second_movie = new model_movie();
-
-        second_movie.name = "Shrek";
-        second_movie.releaseDate = 2001;
-        second_movie.duration = 92;
-
-        second_movie.showMovie();
-        second_movie.rating(8);
-        second_movie.rating(7);
-        second_movie.rating(6);
-
-        System.out.println("Total ratings: " + second_movie.getTotalRatings());
-        System.out.println("Average: " + second_movie.average());
+//        // Create another movie
+//        model_movie second_movie = new model_movie();
+//
+//        second_movie.getName();
+//        second_movie.getReleaseDate() ;
+//        second_movie.getDuration();
+//
+//        second_movie.showMovie();
+//        second_movie.rating(8);
+//        second_movie.rating(7);
+//        second_movie.rating(6);
+//
+//        System.out.println("Total ratings: " + second_movie.getTotalRatings());
+//        System.out.println("Average: " + second_movie.average());
     }
 }
